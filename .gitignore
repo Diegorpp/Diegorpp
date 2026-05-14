@@ -1,0 +1,10 @@
+CLAUDE.md
+
+# tex files
+*.aux
+*.log
+*.out
+*.synctex
+*.fls
+*.fdb_latexmk
+
