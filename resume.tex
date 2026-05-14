@@ -1,0 +1,194 @@
+%-------------------------
+% Resume for Diego Perez
+% Based on Jake's Resume template
+% Target: Senior Data Scientist / Backend Engineer (X-Team)
+%-------------------------
+% chktex-file 1
+% chktex-file 8
+
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\usepackage{charter}        % Charter — muito legível, boa escolha
+% \usepackage{mathpazo}       % Palatino — elegante
+% \usepackage{tgtermes}       % Times New Roman clone
+
+% Sem serifa (mais modernas):
+% \usepackage{tgheros}        % Helvetica clone — clean, muito usada em tech
+% \usepackage[defaultsans]{lato}  % Lato — popular em currículos modernos
+
+% Leve melhoria do padrão:
+% \usepackage{lmodern}        % Latin Modern — versão melhorada da fonte padrão
+
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{4.08003pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+%--- Custom commands ----------------------------------------------------------
+
+\newcommand{\resumeItem}[1]{
+  \item\small{#1 \vspace{-2pt}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+  \item
+  \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+    \textit{\small#1} & \textit{\small #2} \\
+  \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%==============================================================================
+\begin{document}
+
+%--- Header -------------------------------------------------------------------
+
+\begin{center}
+  {\Huge \scshape Diego Rodrigo Perez Pacheco} \\ \vspace{2pt}
+  {\small\textit{Data Scientist \& Software Engineer $|$ Python $|$ FastAPI $|$ Computer Vision $|$ NLP $|$ Kubernetes}} \\ \vspace{4pt}
+  \small
+  Serra, ES, Brazil \quad $|$ \quad
+  \href{mailto:diegoperez.ufes@gmail.com}{diegoperez.ufes@gmail.com} \quad $|$ \quad
+  \href{https://linkedin.com/in/diego-perez-758760101}{linkedin.com/in/diego-perez-758760101} \quad $|$ \quad
+  \href{https://github.com/Diegorpp}{github.com/Diegorpp}
+\end{center}
+
+%--- Summary ------------------------------------------------------------------
+
+\section{Summary}
+Software engineer and data scientist with 6+ years of experience delivering AI-powered solutions across
+computer vision, NLP, and backend systems. Reduced over 200,000 manually processed documents each year using
+computer vision pipelines; built RAG-based applications for reliable chatbot information retrieval;
+orchestrated all projects on Kubernetes clusters. Service integrations built end-to-end with FastAPI,
+backed by several years of PostgreSQL experience and a strong infrastructure foundation.
+
+%--- Skills -------------------------------------------------------------------
+
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:} Python (advanced), SQL, Bash \\
+    \textbf{Frameworks \& Libraries:} FastAPI, PyTorch, TensorFlow, scikit-learn, Pandas, OpenCV, Airflow \\
+    \textbf{Infrastructure:} Kubernetes, Docker, RabbitMQ, PostgreSQL \\
+    \textbf{Practices:} REST API design, RAG/LLM pipelines, Microservices, Domain-Driven Design, CI/CD
+  }}
+\end{itemize}
+
+%--- Experience ---------------------------------------------------------------
+
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Vert Integradora de TI}{May 2020 -- Present}
+    {Senior Data Scientist}{Remote $\cdot$ Oct 2024 -- Present}
+  \resumeItemListStart
+    \resumeItem{Lead end-to-end data science initiatives across computer vision, NLP, and RAG-based LLM pipelines; own architecture decisions from research through production deployment on Kubernetes.}
+    \resumeItem{Mentor junior engineers on Python best practices, API design, and ML operationalization; contribute to cross-team technical alignment.}
+  \resumeItemListEnd
+
+  \resumeSubSubheading{Data Engineer (Backend / MLOps)}{Remote $\cdot$ Apr 2022 -- Oct 2024}
+  \resumeItemListStart
+    \resumeItem{Designed and deployed RESTful APIs with FastAPI covering data transformation, ML model serving, and pipeline orchestration.}
+    \resumeItem{Managed containerized microservices on Kubernetes (rolling updates, scaling, inter-service networking) and integrated RabbitMQ for async event-driven workflows.}
+    \resumeItem{Designed PostgreSQL schemas and optimized queries for both analytical and operational workloads; applied repository/service-layer patterns across monolith and microservice codebases.}
+  \resumeItemListEnd
+
+  \resumeSubSubheading{Data Scientist Jr.}{Remote $\cdot$ Jun 2021 -- Apr 2022}
+  \resumeItemListStart
+    \resumeItem{Developed computer vision pipelines for automated information extraction from documents, eliminating over 200,000 manual processing operations per year.}
+    \resumeItem{Built Python inference services for computer vision and NLP models, exposed as production APIs; contributed to architectural decisions on service decomposition.}
+  \resumeItemListEnd
+
+  \resumeSubSubheading{Trainee}{Remote $\cdot$ May 2020 -- Jun 2021}
+  \resumeItemListStart
+    \resumeItem{Developed data transformation modules and automation scripts in Python; supported model training and API integration workflows.}
+  \resumeItemListEnd
+
+  \resumeSubheading
+    {Intervip Telecom}{Apr 2019 -- May 2020}
+    {Technical Support Engineer}{Serra, ES, Brazil}
+  \resumeItemListStart
+    \resumeItem{Configured and monitored broadband and corporate network infrastructure; debugging Mikrotik based network at many corporate clients to achieve high availability.}
+  \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+%--- Education ----------------------------------------------------------------
+
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {IFES -- Federal Institute of Espírito Santo}{2026 -- Present}
+    {Professional Master of Science, Applied Computing}{Serra, ES, Brazil}
+  \resumeSubheading
+    {IFES -- Federal Institute of Espírito Santo}{Jan 2019 -- Dec 2024}
+    {Bachelor of Science, Information Systems}{Serra, ES, Brazil}
+  \resumeItemListStart
+    \resumeItem{Research scholar at NERDS lab (2018--2019): Python automation for horizontal and vertical autoscale experiments.}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%--- Certifications -----------------------------------------------------------
+
+\section{Certifications}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    RabbitMQ \quad $\cdot$ \quad
+    Domain-Driven Design \quad $\cdot$ \quad
+    Artificial Intelligence formation \quad $\cdot$ \quad
+    Deep Learning \quad $\cdot$ \quad
+    Computer Vision \quad $\cdot$ \quad
+    Natural Language Processing \quad $\cdot$ \quad
+    SAS Visual Investigator: Analysis \& Investigation \quad $\cdot$ \quad
+    SAS Fraud Framework: Social Network Analysis
+  }}
+\end{itemize}
+
+%------------------------------------------------------------------------------
+\end{document}
