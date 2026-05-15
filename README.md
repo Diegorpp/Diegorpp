@@ -6,7 +6,7 @@
 
 Data Scientist and Software Architect with 6+ years of experience building production-grade APIs, data pipelines, and AI systems with computer vision, NLP, agents, and traditional ML models. I work across the full backend lifecycle — from API design and service architecture to Kubernetes deployment and data orchestration.
 
-📍 Serra, Brazil &nbsp;|&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/diegoperez-758760101)
+📍 Serra, Brazil &nbsp;|&nbsp; [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/diego-perez-758760101)
 
 📄 **[Resume (PDF)](./resume.pdf)**
 
